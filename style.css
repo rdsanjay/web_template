@@ -558,3 +558,27 @@ footer{
 }
 
 /*  */
+
+/* owl style */
+.owl-prev{
+font-size: 50px !important;
+  position: absolute;
+  top: 25%;
+  left: -40px;
+}
+.owl-next{
+  font-size: 50px !important;
+  position: absolute;
+  top: 25%;
+  right: -40px;
+}
+.owl-dots{
+  display: none;
+}
+.owl-theme .owl-nav [class*='owl-']:hover{
+  background-color: #ffffff !important;
+}
+.carouse-first{
+  margin: 20px 0px;
+}
+/* owl style end */
